@@ -1,0 +1,14 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+index:
+    path: /
+    controller: App\Controller\HomeController::home
+
+clearCache:
+    path: /clear
+    controller: App\Controller\HomeController::clear
+
+forceUpdate:
+    path: /force
+    controller: App\Controller\HomeController::force    
